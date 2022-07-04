@@ -1,15 +1,18 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <HelloWorld msg="Welcome to Your Vue.js App Bu bir örnek"/>
+  <CounterAds title="Bu bir sayaç başlığıdır." num="10" />
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import CounterAds from './components/CounterAds.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    CounterAds
   }
 }
 </script>
