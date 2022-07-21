@@ -1,7 +1,9 @@
 <template>
-<h2>{{title}} {{num}}</h2>
-  <div>
-    {{ counter }} <button @click="counter++" class="counter">Counter +</button>
+  <div class="countainer">
+    {{ counter }}
+    <br />
+    <button @click="counter--" class="counter">-</button>
+    <button @click="counter++" class="counter">+</button>
   </div>
 </template>
 
@@ -15,18 +17,18 @@ export default {
   },
   props: {
     title: String,
-    num: Number
-  }
+    num: Number,
+  },
 };
 </script>
 
 <style scoped>
-.counter {
+/* .counter {
   background-color: #fef595;
   border-radius: 15px;
   padding: 10px;
   margin: 10px;
   border: #fef595 1px solid;
   cursor: pointer;
-}
+} */
 </style>
