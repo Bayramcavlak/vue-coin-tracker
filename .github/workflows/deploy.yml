@@ -3,7 +3,7 @@ name: DEPLOY TO STAGING
 on:
   push:
     paths:
-      -'/dist'
+      -'dist'
         branches:
           - main
 jobs:
