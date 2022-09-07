@@ -2,8 +2,6 @@ name: DEPLOY TO STAGING
 
 on:
   push:
-    paths:
-      -'dist'
         branches:
           - main
 jobs:
