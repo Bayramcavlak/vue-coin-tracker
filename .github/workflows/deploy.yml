@@ -2,16 +2,16 @@ name: DEPLOY TO STAGING
 
 on:
   push:
-    branches:
-      - main
-
+    paths:
+      -'/dist'
+        branches:
+          - main
 jobs:
-  firebase-deploy:
+  web-deploy:
     runs-on: ubuntu-latest
     steps:
-     
       - name: Building the project
-      - run: npm run build
+      - run: npm ci && npm run build
       - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with:
