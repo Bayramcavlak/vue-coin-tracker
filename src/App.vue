@@ -1,38 +1,32 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App Bu bir örnek"/>
-  <CounterAds title="Bu bir sayaç başlığıdır." num="10" />
+  <div class="container">
+    <NavBar />
+    <Card />
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import CounterAds from './components/CounterAds.vue'
+import Card from "./components/Cards/Card";
+import NavBar from "./components/Navbar/NavBar";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld,
-    CounterAds
-  }
-}
+    Card,
+    NavBar
+  },
+};
 </script>
-
 <style>
+body {
+  background-color: black;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
-}
-
-.counter {
-  background-color: #fef595;
-  border-radius: 15px;
-  padding: 10px;
-  margin: 10px;
-  border: #fef595 1px solid;
-  cursor: pointer;
+  margin-top: 10px;
 }
 </style>
