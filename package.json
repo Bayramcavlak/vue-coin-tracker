@@ -1,8 +1,12 @@
 {
   "name": "hedef-red",
-  "version": "0.1.0",
-  "description": "By Bayram Cavlak",
+  "version": "1.0.0",
+  "description": "Vue 3 ile geliştirilen bir web sitesi",
   "private": true,
+  "engines": {
+    "npm": "8.12.1",
+    "node": "18.4.0"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
