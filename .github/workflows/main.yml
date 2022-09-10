@@ -39,3 +39,4 @@ jobs:
           server: 93.115.79.237
           username: ${{ secrets.USER_NAME }}
           password: ${{ secrets.PASSWORD }}
+          local-dir: dist/
