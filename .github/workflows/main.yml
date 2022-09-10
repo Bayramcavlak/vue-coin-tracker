@@ -30,12 +30,10 @@ jobs:
         uses: actions/checkout@main
       - name: Download artifact
         uses: actions/download-artifact@main
+      - name: Sync files to hosting
+        uses: SamKirkland/FTP-Deploy-Action@4.0.0
         with:
-          name: dist
           path: dist
-         - name: 📂 Sync files
-          uses: SamKirkland/FTP-Deploy-Action@4.3.0
-          with:
-            server: ${{ secrets.CLOUD_ADDRESS }}
-            username: ${{ secrets.USER_NAME }}
-            password: ${{ secrets.PASSWORD }}
+          server: 93.115.79.237
+          username: ${{ secrets.USER_NAME }}
+          password: ${{ secrets.PASSWORD }}
