@@ -7,6 +7,10 @@ const router = createRouter({
   history: createWebHistory(),
   routes: [
     {
+      path: "/",
+      name: "Home",
+    },
+    {
       path: "/landing",
       component: LandingPage,
     },

@@ -1,7 +1,7 @@
 <template>
   <header>
-    <img alt="ADt Logo" src="../../assets/adt_logo.png" height="50" />
-    <p>Antalya Developer Topluluğu</p>
+    <img alt="ADt Logo" src="../../assets/logo.png" height="50" />
+    <p>QR Desk Menü</p>
     <nav>
       <ul>
         <li class="badge bg-info"><router-link to="/">Home</router-link></li>

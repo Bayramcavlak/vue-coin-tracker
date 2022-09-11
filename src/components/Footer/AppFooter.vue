@@ -3,30 +3,20 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4">
-          <h4>Antalya Developer Topluluğu</h4>
+          <h4>Qrdesk.com</h4>
           <p>
-            Antalya Developer Topluluğu, Antalya'da yazılım geliştiricileri bir
-            araya getirmek amacıyla kurulmuştur.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            voluptates, quod, quia, voluptate quae voluptatem quas quibusdam
+            voluptatum quidem natus quos. Quisquam, quae. Quisquam, quae.
           </p>
         </div>
-        <div class="col-md-4">
-          <h3>İletişim</h3>
-          <p>
-            <a href="mailto:info@antalya.dev">info@antalya.dev </a>
-          </p>
-          <p>
-            <a href="#">Twitter</a>
-          </p>
-          <p>
-            <a href="#">Facebook</a>
-          </p>
-        </div>
+       
         <div class="col-md-4">
           <h4>Biz kimiz?</h4>
           <p>
-            Yazılım geliştiricilerini ve yazılım girişimcilerini bir araya
-            getirmek ve Antalya'da yazılım sektörünü geliştirmek amacıyla
-            kurulmuş bir topluluktur.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            voluptates, quod, quia, voluptate quae voluptatem quas quibusdam
+            voluptatum quidem natus quos. Quisquam, quae. Quisquam, quae.
           </p>
         </div>
       </div>
