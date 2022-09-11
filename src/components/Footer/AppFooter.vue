@@ -2,22 +2,22 @@
   <footer>
     <div class="container">
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-6">
           <h4>Qrdesk.com</h4>
-          <p>
+          <!-- <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
             voluptates, quod, quia, voluptate quae voluptatem quas quibusdam
             voluptatum quidem natus quos. Quisquam, quae. Quisquam, quae.
-          </p>
+          </p> -->
         </div>
        
-        <div class="col-md-4">
-          <h4>Biz kimiz?</h4>
-          <p>
+        <div class="col-md-6">
+          <h4>Menu Listesi</h4>
+          <!-- <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
             voluptates, quod, quia, voluptate quae voluptatem quas quibusdam
             voluptatum quidem natus quos. Quisquam, quae. Quisquam, quae.
-          </p>
+          </p> -->
         </div>
       </div>
     </div>

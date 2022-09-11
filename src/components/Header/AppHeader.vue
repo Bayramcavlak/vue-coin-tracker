@@ -1,18 +1,27 @@
 <template>
   <header>
-    <img alt="ADt Logo" src="../../assets/logo.png" height="50" />
-    <p>QR Desk Menü</p>
+    <img alt="Qrdesk.com Logo" src="../../assets/logo.png" height="50" />
+    <router-link to="/"><p>QR Desk Menü</p></router-link>
     <nav>
       <ul>
-        <li class="badge bg-info"><router-link to="/">Home</router-link></li>
-        <li class="badge bg-info"><router-link to="/landing">About</router-link></li>
-        <li class="badge bg-info"><router-link to="/team">Team</router-link></li>
-            <li class="badge bg-info"><router-link to="/menu">Menu</router-link></li>
+        <li class="badge bg-info">
+          <router-link to="/">Home</router-link>
+        </li>
+        <li class="badge bg-info">
+          <router-link to="/landing">About</router-link>
+        </li>
+        <li class="badge bg-info">
+          <router-link to="/team">Team</router-link>
+        </li>
+        <li class="badge bg-info">
+          <router-link to="/menu">Menu</router-link>
+        </li>
       </ul>
     </nav>
   </header>
 </template>
 <script></script>
+
 <style>
 header {
   display: flex;
