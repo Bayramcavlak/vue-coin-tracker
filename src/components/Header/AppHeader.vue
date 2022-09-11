@@ -7,6 +7,7 @@
         <li class="badge bg-info"><router-link to="/">Home</router-link></li>
         <li class="badge bg-info"><router-link to="/landing">About</router-link></li>
         <li class="badge bg-info"><router-link to="/team">Team</router-link></li>
+            <li class="badge bg-info"><router-link to="/menu">Menu</router-link></li>
       </ul>
     </nav>
   </header>

@@ -2,6 +2,7 @@
   <div class="container">
     <Header />
     <LeftNav />
+    <Counter />
     <router-view></router-view>
     <Footer />
   </div>
@@ -11,6 +12,7 @@
 import Header from "./components/Header/AppHeader";
 import Footer from "./components/Footer/AppFooter";
 import LeftNav from "./components/Navbar/LeftNavbar";
+import Counter from "./components/Counters/CounterNumber";
 
 export default {
   name: "App",
@@ -18,6 +20,7 @@ export default {
     Header,
     Footer,
     LeftNav,
+    Counter
   },
 };
 </script>
