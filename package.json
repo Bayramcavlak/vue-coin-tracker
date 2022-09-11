@@ -50,7 +50,7 @@
   "main": "babel.config.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Bayramcavlak/qrdesk_menu.git"
+    "url": "git+https://github.com/Bayramcavlak/vue-coin-tracker.git"
   },
   "keywords": [
     "qrdesk-menu"
